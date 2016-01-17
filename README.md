@@ -1,2 +1,2 @@
 # Journeyman
-A robust Vagrant base box for PHP projects (WIP)
+A robust Vagrant base box for PHP projects
