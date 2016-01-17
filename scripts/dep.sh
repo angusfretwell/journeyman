@@ -34,9 +34,8 @@ ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 # Install PHP Stuffs
 
-apt-get install -y --force-yes php7.0-cli php7.0-dev \
-php-gd php-apcu php-curl php7.0-dev \
-php-imap php-mysql php-memcached php7.0-readline
+apt-get install -y --force-yes php7.0-cli php7.0-dev php-gd php-apcu php-curl \
+php7.0-dev php7.0-mcrypt php-imap php-mysql php-memcached php7.0-readline
 
 # Install Composer
 
