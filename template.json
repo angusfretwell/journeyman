@@ -16,9 +16,9 @@
       "guest_os_type": "Ubuntu_64",
       "headless": true,
       "http_directory": "http",
-      "iso_checksum": "af224223de99e2a730b67d7785b657f549be0d63221188e105445f75fb8305c9",
+      "iso_checksum": "a3b345908a826e262f4ea1afeb357fd09ec0558cf34e6c9112cead4bb55ccdfb",
       "iso_checksum_type": "sha256",
-      "iso_url": "http://releases.ubuntu.com/precise/ubuntu-12.04.5-server-amd64.iso",
+      "iso_url": "http://releases.ubuntu.com/trusty/ubuntu-14.04.3-server-amd64.iso",
       "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'vagrant'|sudo -S bash 'shutdown.sh'",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -42,9 +42,9 @@
       "guest_os_type": "Ubuntu-64",
       "headless": true,
       "http_directory": "http",
-      "iso_checksum": "af224223de99e2a730b67d7785b657f549be0d63221188e105445f75fb8305c9",
+      "iso_checksum": "a3b345908a826e262f4ea1afeb357fd09ec0558cf34e6c9112cead4bb55ccdfb",
       "iso_checksum_type": "sha256",
-      "iso_url": "http://releases.ubuntu.com/precise/ubuntu-12.04.5-server-amd64.iso",
+      "iso_url": "http://releases.ubuntu.com/trusty/ubuntu-14.04.3-server-amd64.iso",
       "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'vagrant'|sudo -S bash 'shutdown.sh'",
       "skip_compaction": true,
       "ssh_password": "vagrant",
@@ -66,7 +66,7 @@
         "artifact_type": "vagrant.box",
         "metadata": {
           "provider": "vmware_desktop",
-          "version": "0.0.1"
+          "version": "0.1.0"
         },
         "only": [
           "vmware-iso"
@@ -78,7 +78,7 @@
         "artifact_type": "vagrant.box",
         "metadata": {
           "provider": "virtualbox",
-          "version": "0.0.1"
+          "version": "0.1.0"
         },
         "only": [
           "virtualbox-iso"
